@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 75px;
+    height: 75px;
     padding: 10px 30px;
 }
 
@@ -21,4 +21,44 @@
 
 .topnav-link.active {
     font-weight: bold;
+}
+
+.dropdown-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.topnav-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #1D4368;
+    width: 50%;
+    margin-top: 0px;
+    padding: 0;
+    flex-direction: column;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.3s ease-in-out;
+    top: 75px;
+}
+
+.topnav-drop-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 0.2px solid #f7f7f7;
+}
+
+@media (max-width: 768px) {
+    .topnav-left {
+        display: none;
+    }
+
+    .topnav-dropdown {
+        display: flex;
+    }
+
+    .dropdown-icon {
+        display: block;
+    }
 }

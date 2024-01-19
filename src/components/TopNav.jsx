@@ -29,7 +29,7 @@ function TopNav() {
                 <NavLink to="/resources" className="topnav-link">Resources</NavLink>
                 <NavLink to="/about" className="topnav-link">About</NavLink>
             </div>
-            <div className="topnav-right" onClick={scrollToBottom} >
+            <div className="topnav-right" style={{cursor: "pointer"}} onClick={scrollToBottom} >
                 Contact Us
             </div>
             

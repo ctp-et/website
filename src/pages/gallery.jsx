@@ -1,8 +1,8 @@
 function Gallery() {
   return (
-    <div className="Gallery">
+    <main className="Gallery">
       <h1>Gallery - Tesfalem's edit </h1>
-    </div>
+    </main>
   );
 }
 

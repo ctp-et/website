@@ -22,19 +22,20 @@
 }
 
 .who-we-are-container {
-    margin: 10px auto;
+    margin: 50px auto 100px;
     width: 400px; 
     text-align: center; 
 }
 
 .our-programs-description-container {
-    margin: 50px auto 10px;
+    margin: 50px auto 100px;
     width: 400px;
     text-align: center;
 }
 
 @media (max-width: 425px) {
     .who-we-are-container, .our-programs-description-container {
+        margin: 50px auto;
         width: 100%;
     }
 }
@@ -92,20 +93,4 @@
 .visible {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
-}
-.galleryDiv{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 10px;
-    max-width: 1000px;
-    margin: 0px auto;
-    padding: 20px;
-    place-items: center;
-
-}
-.galleryImg{
-    max-width: 450px;
-    max-height: auto;
-    flex-grow: 1;
 }

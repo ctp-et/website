@@ -15,12 +15,13 @@
 
 .section-header {
     margin: 0 auto;
-    font-size: 4rem;
+    font-size: 3.5rem;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .section-para {
@@ -33,6 +34,7 @@
     color: white;
 }
 
+/* Resort to a blue-main-white-accent theme when screen size is small */
 @media (max-width: 950px) {
     .home-section-header-container {
         background-color: #1D4368;
@@ -54,8 +56,12 @@
     row-gap: 50px;
 }
 
+.section-para h2 {
+    font-size: 2rem;
+}
+
 .section-para p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .section-para img {

@@ -11,7 +11,7 @@ function BottomNav() {
                 Got questions? Contact us at <b>ctpethio@gmail.com</b>.
                 <br />
                 <br />
-                Stay informed about announcements and updates by joining our <u><a href="https://t.me/ctpethiopia">Telegram channel</a></u> and by following our <u><a href="https://www.instagram.com/ctpethiopia/">Instagram page</a></u>.
+                Stay informed about announcements and updates by joining our <u><a href="https://t.me/ctpethiopia">Telegram channel</a></u> and following our <u><a href="https://www.instagram.com/ctpethiopia/">Instagram page</a></u>.
             </p>
         </div>
     </footer>
